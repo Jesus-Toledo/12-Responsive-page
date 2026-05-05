@@ -121,9 +121,134 @@
         }
        }
     
-       
-       /* ------------------ about section -------------------*/
-       /* ------------------ future section -------------------*/
+            /* ------------------ future section -------------------*/
+            .futures {
+                padding: var(--spacing-lg) 0;
+                background-color: var(--color-white);
+                box-shadow: var(--shadow);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: var(--spacing-lg);
+            }
+            .future-text {
+                text-align: center;
+                max-width: 600px;
+                h3 {
+                    font-size: 2rem;
+                    margin-bottom: var(--spacing-md);
+                }
+                p {
+                    font-size: 1.2rem;
+                    margin-bottom: var(--spacing-md);
+                }
+            }
+            .future-cards {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: var(--spacing-lg);
+            }
+            .future-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                max-width: 300px;
+                background-color: lightblue;
+                padding: var(--spacing-md);
+                border-radius: var(--radius);
+                svg {
+                    width: 50px;
+                    height: 50px;
+                    margin-bottom: var(--spacing-md);
+                }
 
+                h3 {
+                    font-size: 1.5rem;
+                    margin-bottom: var(--spacing-md);
+                }
+                p {
+                    font-size: 1.2rem;
+                    margin-bottom: var(--spacing-md);
+                }
+            }
+       /* ------------------ about section -------------------*/
+       .about { 
+        padding: var(--spacing-lg) 0;
+        background-color: var(--color-white);
+        box-shadow: var(--shadow);
+       }
+       .about-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-lg);
+       }
+       .about-image {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+       }
+       .about-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: var(--spacing-md);
+        }
+       }
+       /* ------------------ future section -------------------*/
+       .futures {
+        padding: var(--spacing-lg) 0;
+        background-color: var(--color-white);
+        box-shadow: var(--shadow);
+       }
+       .future-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h3 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: var(--spacing-md);
+        }
+    }
+
+        .future-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-lg);
+        }
+        .future-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 300px;
+            background-color: lightblue;
+            padding: var(--spacing-md);
+            border-radius: var(--radius);
+            svg {
+                width: 50px;
+                height: 50px;
+                margin-bottom: var(--spacing-md);
+            }
+        }
         /* ------------------ cta section -------------------*/
         /* ------------------ footer section -------------------*/
